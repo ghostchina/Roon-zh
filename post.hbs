@@ -26,9 +26,6 @@
                 <span aria-hidden="true" data-icon="S"></span>
                 <strong>分享</strong>
             </a>
-            <a href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
-                <span aria-hidden="true" data-icon="C"></span> Comment on Twitter
-            </a>
         </menu>
 
 
@@ -72,30 +69,15 @@
         <div class="wrap">
             <div class="inner">
                 <header>
-                    Share
+                    分享
                     <a href="" class="close" title="Close">&times;</a>
                 </header>
 
                 <div class="roon-share-links">
-                    <a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true">Tweet</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-                    <div id="fb-elems">
-                        <div id="fb-root"></div>
-                        <script>(function(d, s, id) {
-                        var js, fjs = d.getElementsByTagName(s)[0];
-                        if (d.getElementById(id)) return;
-                        js = d.createElement(s); js.id = id;
-                        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=463438580397968";
-                        fjs.parentNode.insertBefore(js, fjs);
-                        }(document, 'script', 'facebook-jssdk'));</script>
-                        <div class="fb-like" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div>
-                    </div>
-
-                    <div id="pinit-btn">
-                        <a href="//pinterest.com/pin/create/button/?url={{url absolute="true"}}&amp;description={{encode title}}-{{encode @blog.title}} " data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png"></a>
-                        <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
-                    </div>
+                {{! 以下代码使用的是百度分享(http://share.baidu.com/)，如需自定义，请自行到百度分享上定制并将代码粘贴到这里。}}
+                <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                {{! 百度分享代码结束}}
                 </div>
             </div>
         </div>
