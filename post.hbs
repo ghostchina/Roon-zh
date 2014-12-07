@@ -13,7 +13,7 @@
     <article role="main" class="{{#if image}}image{{/if}}">
         <header>
             <a href="{{@blog.url}}" id="home_link">«</a>
-            <div class="meta"><time datetime="{{date format='YYYY-MM-DD'}}"><a href="{{url}}">{{date format="MMMM DD, YYYY"}}</a></time> <span class="count" id="js-reading-time"></span></div>
+            <div class="meta"><time datetime="{{date format='YYYY-MM-DD'}}"><a href="{{url}}">{{date format="YYYY年MM月DD日"}}</a></time> <span class="count" id="js-reading-time"></span></div>
             <h1>{{title}}</h1>
         </header>
 
@@ -22,9 +22,9 @@
         </div>
 
         <menu>
-            <a href="" id="btn_share" class="btn" title="Share">
+            <a href="" id="btn_share" class="btn" title="分享">
                 <span aria-hidden="true" data-icon="S"></span>
-                <strong>Share</strong>
+                <strong>分享</strong>
             </a>
             <a href="http://twitter.com/share?text={{encode title}}&url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" id="btn_comment" class="btn" target="_blank">
                 <span aria-hidden="true" data-icon="C"></span> Comment on Twitter
