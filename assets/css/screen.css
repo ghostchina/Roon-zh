@@ -47,105 +47,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 @font-face {
     font-family: 'Pictos Custom';
-    src: url("/assets/fonts/pictos_custom.eot");
-    src: url("/assets/fonts/pictos_custom.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/pictos_custom.woff") format("woff"),
-         url("/assets/fonts/pictos_custom.ttf") format("truetype");
+    src: url("../fonts/pictos_custom.eot");
+    src: url("../fonts/pictos_custom.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/pictos_custom.woff") format("woff"),
+         url("../fonts/pictos_custom.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
-}
-@font-face {
-    font-family: 'Gibson';
-    src: url("/assets/fonts/gibson.eot");
-    src: url("/assets/fonts/gibson.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/gibson.woff") format("woff");
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'Gibson';
-    src: url("/assets/fonts/gibson-semibold.eot");
-    src: url("/assets/fonts/gibson-semibold.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/gibson-semibold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal
-}
-@font-face {
-    font-family: 'Gibson';
-    src: url("/assets/fonts/gibson-semibold-italic.eot");
-    src: url("/assets/fonts/gibson-semibold-italic.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/gibson-semibold-italic.woff") format("woff");
-    font-weight: bold;
-    font-style: italic
-}
-@font-face {
-    font-family: 'FiloPro';
-    src: url("/assets/fonts/filo-pro.eot");
-    src: url("/assets/fonts/filo-pro.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/filo-pro.woff") format("woff");
-    font-weight: normal;
-    font-style: normal
-}
-@font-face {
-    font-family: 'FiloPro';
-    src: url("/assets/fonts/filo-pro-regular-italic.eot");
-    src: url("/assets/fonts/filo-pro-regular-italic.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/filo-pro-regular-italic.woff") format("woff");
-    font-weight: normal;
-    font-style: italic
-}
-@font-face {
-    font-family: 'FiloPro';
-    src: url("/assets/fonts/filo-pro-bold.eot");
-    src: url("/assets/fonts/filo-pro-bold.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/filo-pro-bold.woff") format("woff");
-    font-weight: bold;
-    font-style: normal
-}
-@font-face {
-    font-family: 'FiloPro';
-    src: url("/assets/fonts/filo-pro-bold-italic.eot");
-    src: url("/assets/fonts/filo-pro-bold-italic.eot?#iefix") format("embedded-opentype"),
-         url("/assets/fonts/filo-pro-bold-italic.woff") format("woff");
-    font-weight: bold;
-    font-style: italic
 }
 
 body {
-    font-family: "Gibson", "Helvetica Neue", "Helvetica-Neue", helvetica, sans-serif
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica-Neue", helvetica, sans-serif
 }
-body .btn, body>header h1, body article header h1, body>footer .details h4, body article>footer .details h4, body #share_modal header a.close, body.user article.feature h1 a {
-    font-family: "Gibson", "Helvetica Neue", "Helvetica-Neue", helvetica, sans-serif
-}
-body article time, body article>.meta, body article>header .count, body article>footer, body article>footer h4, body article .text, body article .text blockquote {
-    font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica-Neue", helvetica, sans-serif
+body .btn, body>header h1, body article header h1, body>footer .details h4, body .post-footer .details h4, body #share_modal header a.close, body.user article.feature h1 a {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica-Neue", helvetica, sans-serif
 }
 body.serif {
-    font-family: "FiloPro", "Georgia", "Times New Roman", serif
+    font-family: "Merriweather", "Georgia", "Times New Roman", serif
 }
 body.serif>header h1, body.serif>footer, body.serif>footer h4, body.serif #post_nav {
-    font-family: "FiloPro", "Georgia", "Times New Roman", serif
+    font-family: "Merriweather", "Georgia", "Times New Roman", serif
 }
 body.serif>a.btn.nav {
-    font-family: "FiloPro", "Georgia", "Times New Roman", serif;
+    font-family: "Merriweather", "Georgia", "Times New Roman", serif;
     padding-top: 16px;
     padding-bottom: 14px
 }
 body.serif>a.btn.nav.next span {
     margin-top: 2px
 }
-body.serif article time, body.serif article>.meta, body.serif article>header h1, body.serif article>header .count, body.serif article.feature h1 a, body.serif article>footer, body.serif article>footer h4 {
-    font-family: "FiloPro", "Georgia", "Times New Roman", serif
+body.serif article time, body.serif article>.meta, body.serif article>header h1, body.serif article>header .count, body.serif article.feature h1 a, body.serif .post-footer, body.serif .post-footer h4 {
+    font-family: "Merriweather", "Georgia", "Times New Roman", serif
 }
 body.serif article .text {
-    font-family: "FiloPro", "Georgia", "Times New Roman", serif;
+    font-family: "Merriweather", "Georgia", "Times New Roman", serif;
     font-size: 17px
 }
 body.serif article .text blockquote {
-    font-family: "FiloPro", "Georgia", "Times New Roman", serif
+    font-family: "Merriweather", "Georgia", "Times New Roman", serif
 }
 body.serif article>menu #btn_comment {
-    font-family: "FiloPro", "Georgia", "Times New Roman", serif;
+    font-family: "Merriweather", "Georgia", "Times New Roman", serif;
     font-size: 13px
 }
 body.serif article>menu #btn_comment span {
@@ -427,85 +368,27 @@ body.noimage {
     border-top-width: 4px;
     border-top-style: solid;
 }
+
 #feature_image {
     position: relative;
     width: 100%;
     height: 60%;
-    background: #909396 url(https://roon-assets.s3.amazonaws.com/assets/image-loading-dark-1a46c68c8e26a1a16a4ce8e4d75ec33b.gif) no-repeat center center
 }
-#feature_image .inner, #feature_image #feature_image_helper {
+#feature_image .inner {
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
-    -webkit-transition-property: opacity;
-    -moz-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0
-}
-#feature_image .inner, #feature_image #feature_image_helper .bg {
-    -webkit-transition-property: opacity;
-    -moz-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    background-color: transparent;
-    background-repeat: no-repeat;
+    left: 0;
+    background-size: cover;
     background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
+    background-repeat: no-repeat;
 }
-#feature_image #feature_image_helper {
-    display: none
-}
-#feature_image #feature_image_helper .bg {
-    width: 100%;
-    height: 100%;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=20);
-    opacity: 0.2
-}
-#feature_image.vert .inner, #feature_image.square .inner {
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    -webkit-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    transition-duration: 0.2s
-}
-#feature_image.vert #feature_image_helper, #feature_image.square #feature_image_helper {
-    display: block
-}
-#feature_image.show {
-    background-image: none
-}
-#feature_image.show .inner {
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1
-}
-#feature_image.show .inner img {
+#feature_image img {
     width: 0;
     height: 0;
     visibility: hidden;
-    position: absolute
-}
-#feature_image.show.vert #feature_image_helper, #feature_image.show.square #feature_image_helper {
-    background-color: #909396;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1
+    position: absolute;
 }
 article {
     margin: 65px auto 0 auto;
@@ -920,7 +803,6 @@ body.user article .image-holder {
     margin: 0 auto 30px auto;
     overflow: hidden;
     max-width: 680px;
-    background: #909396 url(https://roon-assets.s3.amazonaws.com/assets/image-loading-dark-1a46c68c8e26a1a16a4ce8e4d75ec33b.gif) no-repeat center center;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -943,30 +825,12 @@ body.user article .image-holder .inner {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    visibility: hidden;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-    -webkit-transition-property: opacity, visibility;
-    -moz-transition-property: opacity, visibility;
-    -o-transition-property: opacity, visibility;
-    transition-property: opacity, visibility;
-    -webkit-transition-duration: 0.5s;
-    -moz-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s
 }
 body.user article .image-holder img {
-    display: block;
-    max-width: 100%;
-    visibility: hidden
-}
-body.user article .image-holder.show {
-    background: #909396
-}
-body.user article .image-holder.show .inner {
-    visibility: visible;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    position: absolute;
 }
 body.user article .meta {
     display: block;
@@ -1162,20 +1026,20 @@ body>a.btn.nav.prev span {
 body>a.btn.nav.loading {
     color: transparent
 }
-body>footer, article>footer {
+body>footer, .post-footer {
     position: relative;
     border-top: 1px solid #ededee;
     padding: 50px 0;
     -webkit-text-size-adjust: none;
     text-rendering: optimizeLegibility
 }
-body>footer>.inner, article>footer>.inner {
+body>footer>.inner, .post-footer>.inner {
     text-align: left;
     margin: 0 auto;
     padding: 0 30px;
     max-width: 680px
 }
-body>footer #btn_feed, article>footer #btn_feed {
+body>footer #btn_feed, .post-footer #btn_feed {
     position: absolute;
     top: -18px;
     left: 50%;
@@ -1188,14 +1052,14 @@ body>footer #btn_feed, article>footer #btn_feed {
     padding: 9px 9px 7px 10px;
     font-weight: normal
 }
-body>footer #btn_feed strong, article>footer #btn_feed strong {
+body>footer #btn_feed strong, .post-footer #btn_feed strong {
     display: none
 }
-body>footer #btn_feed:hover, article>footer #btn_feed:hover {
+body>footer #btn_feed:hover, .post-footer #btn_feed:hover {
     background-color: #ededee;
     color: #21272d
 }
-body>footer div.vcard, article>footer div.vcard {
+body>footer div.vcard, .post-footer div.vcard {
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
@@ -1205,10 +1069,10 @@ body>footer div.vcard, article>footer div.vcard {
     width: 50%;
     min-height: 100px
 }
-body>footer div.vcard span.given-name, body>footer div.vcard span.family-name, article>footer div.vcard span.given-name, article>footer div.vcard span.family-name {
+body>footer div.vcard span.given-name, body>footer div.vcard span.family-name, .post-footer div.vcard span.given-name, .post-footer div.vcard span.family-name {
     white-space: nowrap
 }
-body>footer .photo, article>footer .photo {
+body>footer .photo, .post-footer .photo {
     float: left;
     margin-right: 22px;
 
@@ -1223,7 +1087,7 @@ body>footer .photo, article>footer .photo {
     background: #fff;
     overflow: hidden;
 }
-body>footer .photo span, article>footer .photo span {
+body>footer .photo span, .post-footer .photo span {
     position: absolute;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1234,7 +1098,7 @@ body>footer .photo span, article>footer .photo span {
     background-size: cover;
 }
 
-body>footer .photo.circle, article>footer .photo.circle {
+body>footer .photo.circle, .post-footer .photo.circle {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -1242,7 +1106,7 @@ body>footer .photo.circle, article>footer .photo.circle {
     border-radius: 50px;
     border: 1px solid rgba(33, 39, 45, 0.17);
 }
-body>footer .photo.circle span, article>footer .photo.circle span {
+body>footer .photo.circle span, .post-footer .photo.circle span {
     top: 18px;
     right: 18px;
     bottom: 18px;
@@ -1250,7 +1114,7 @@ body>footer .photo.circle span, article>footer .photo.circle span {
     background-size: contain;
 }
 
-body>footer .photo img, article>footer .photo img {
+body>footer .photo img, .post-footer .photo img {
     position: absolute;
     top: 0;
     left: 0;
@@ -1258,19 +1122,19 @@ body>footer .photo img, article>footer .photo img {
     height: 1px;
     opacity: 0;
 }
-body>footer .details, article>footer .details {
+body>footer .details, .post-footer .details {
     padding-top: 10px;
     line-height: 1.9em
 }
-body>footer .details h4, article>footer .details h4 {
+body>footer .details h4, .post-footer .details h4 {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 6px
 }
-body>footer .details h4 a, article>footer .details h4 a {
+body>footer .details h4 a, .post-footer .details h4 a {
     color: #21272d
 }
-body>footer #user_bio, article>footer #user_bio {
+body>footer #user_bio, .post-footer #user_bio {
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: middle;
@@ -1279,7 +1143,7 @@ body>footer #user_bio, article>footer #user_bio {
     *display: inline;
     width: 49%
 }
-body>footer #user_bio .inner, article>footer #user_bio .inner {
+body>footer #user_bio .inner, .post-footer #user_bio .inner {
     padding-left: 20px;
     line-height: 1.6em;
     color: #a4adb6
@@ -1414,18 +1278,18 @@ body>.no-posts [data-icon]:before {
 #share_modal #pinit-btn {
     margin: 20px 20px
 }
-html[dir=rtl] article .text, html[dir=rtl] article .text *, html[dir=rtl] article .meta, html[dir=rtl] article .time, html[dir=rtl] article>header, html[dir=rtl] article header *, html[dir=rtl] body>a.btn.nav, html[dir=rtl] body>footer *, html[dir=rtl] article>footer, html[dir=rtl] article>footer * {
+html[dir=rtl] article .text, html[dir=rtl] article .text *, html[dir=rtl] article .meta, html[dir=rtl] article .time, html[dir=rtl] article>header, html[dir=rtl] article header *, html[dir=rtl] body>a.btn.nav, html[dir=rtl] body>footer *, html[dir=rtl].post-footer, html[dir=rtl].post-footer * {
     text-align: right;
     direction: rtl
 }
 html[dir=rtl] body>header *, html[dir=rtl] article>menu a#btn_comment, html[dir=rtl] #post_nav a {
     direction: rtl
 }
-html[dir=rtl] body>a.btn.nav span, html[dir=rtl] body>footer #btn_feed span, html[dir=rtl] article>footer #user_profile>#btn_feed span, html[dir=rtl] #post_nav a span, html[dir=rtl] article>header a#home_link {
+html[dir=rtl] body>a.btn.nav span, html[dir=rtl] body>footer #btn_feed span, html[dir=rtl] .post-footer #user_profile>#btn_feed span, html[dir=rtl] #post_nav a span, html[dir=rtl] article>header a#home_link {
     direction: ltr;
     unicode-bidi: bidi-override
 }
-html[dir=rtl] body>footer .image, html[dir=rtl] article>footer .image {
+html[dir=rtl] body>footer .image, html[dir=rtl] .post-footer .image {
     float: right;
     margin-left: 22px;
     margin-right: 0
@@ -1627,21 +1491,21 @@ body.touch.user article .readmore {
         left: 10px;
         right: inherit
     }
-    body>footer #user_bio, body>footer #user_profile, article>footer #user_bio, article>footer #user_profile {
+    body>footer #user_bio, body>footer #user_profile, .post-footer #user_bio, .post-footer #user_profile {
         display: block;
         width: inherit
     }
-    body>footer #user_bio .inner, body>footer #user_profile .inner, article>footer #user_bio .inner, article>footer #user_profile .inner {
+    body>footer #user_bio .inner, body>footer #user_profile .inner, .post-footer #user_bio .inner, .post-footer #user_profile .inner {
         padding-left: 0
     }
-    body>footer div.vcard, body>footer div.vcard, article>footer div.vcard, article>footer div.vcard {
+    body>footer div.vcard, body>footer div.vcard, .post-footer div.vcard, .post-footer div.vcard {
         display: block;
         width: inherit
     }
-    body>footer #user_bio, article>footer #user_bio {
+    body>footer #user_bio, .post-footer #user_bio {
         margin-top: 30px
     }
-    body>footer #user_bio p, article>footer #user_bio p {
+    body>footer #user_bio p, .post-footer #user_bio p {
         padding-left: 0
     }
 }
@@ -1770,15 +1634,5 @@ body.touch.user article .readmore {
     }
     body.noimage article {
         margin-top: 24px
-    }
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-    #feature_image, body.user article.feature, body.user article .image-holder {
-        background-image: url(https://roon-assets.s3.amazonaws.com/assets/image-loading-dark@2x-01d400ba8728300455deb837c451d3ea.gif);
-        background-size: 34px 34px
-    }
-    article .text span.roon-img {
-        background-image: url(https://roon-assets.s3.amazonaws.com/assets/image-loading-light@2x-5d07f26751af5a375b5e517559fa9f29.gif);
-        background-size: 34px 34px
     }
 }
